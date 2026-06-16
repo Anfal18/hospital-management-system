@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/hospital-management-system/",
+  base: '/hospital-management-system/',
 })
