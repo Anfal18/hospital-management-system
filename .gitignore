@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Node modules
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Production build
+frontend/dist/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,397 @@
+{
+  "patients": [
+    {
+      "id": "PAT-1001",
+      "name": "Eleanor Vance",
+      "age": 34,
+      "gender": "Female",
+      "bloodGroup": "O+",
+      "phone": "+1 (555) 234-5678",
+      "email": "eleanor.vance@example.com",
+      "address": "742 Evergreen Terrace, Springfield",
+      "status": "Admitted",
+      "roomNo": "ICU-02",
+      "admissionDate": "2026-10-01",
+      "emergencyContact": "Thomas Vance (+1 555-987-6543)",
+      "medicalHistory": "Asthma, Mild Hypertension"
+    },
+    {
+      "id": "PAT-1002",
+      "name": "Marcus Aurelius Sterling",
+      "age": 58,
+      "gender": "Male",
+      "bloodGroup": "A+",
+      "phone": "+1 (555) 876-5432",
+      "email": "marcus.sterling@example.com",
+      "address": "120 Baker Street, London Suite",
+      "status": "Outpatient",
+      "roomNo": "N/A",
+      "admissionDate": "2026-10-05",
+      "emergencyContact": "Clara Sterling (+1 555-333-2211)",
+      "medicalHistory": "Type 2 Diabetes"
+    },
+    {
+      "id": "PAT-1003",
+      "name": "Sophia Rodriguez",
+      "age": 27,
+      "gender": "Female",
+      "bloodGroup": "B-",
+      "phone": "+1 (555) 345-6789",
+      "email": "sophia.rodriguez@example.com",
+      "address": "45 Ocean Drive, Miami FL",
+      "status": "Admitted",
+      "roomNo": "PVT-104",
+      "admissionDate": "2026-10-04",
+      "emergencyContact": "Carlos Rodriguez (+1 555-444-5566)",
+      "medicalHistory": "Post-op Appendectomy"
+    },
+    {
+      "id": "PAT-1004",
+      "name": "David Chen",
+      "age": 45,
+      "gender": "Male",
+      "bloodGroup": "AB+",
+      "phone": "+1 (555) 456-7890",
+      "email": "david.chen@example.com",
+      "address": "88 Silicon Way, San Jose CA",
+      "status": "Discharged",
+      "roomNo": "N/A",
+      "admissionDate": "2026-09-20",
+      "emergencyContact": "Mei Chen (+1 555-666-7788)",
+      "medicalHistory": "Acute Gastritis"
+    },
+    {
+      "id": "PAT-1005",
+      "name": "Amina Al-Mansoor",
+      "age": 31,
+      "gender": "Female",
+      "bloodGroup": "O-",
+      "phone": "+1 (555) 567-8901",
+      "email": "amina.mansoor@example.com",
+      "address": "303 Oasis Blvd, Phoenix AZ",
+      "status": "Outpatient",
+      "roomNo": "N/A",
+      "admissionDate": "2026-10-06",
+      "emergencyContact": "Tariq Al-Mansoor (+1 555-777-8899)",
+      "medicalHistory": "Seasonal Allergies"
+    },
+    {
+      "id": "PAT-1006",
+      "name": "Robert Miller",
+      "age": 62,
+      "gender": "Male",
+      "bloodGroup": "A-",
+      "phone": "+1 (555) 678-9012",
+      "email": "robert.miller@example.com",
+      "address": "512 Pinecrest Ave, Seattle WA",
+      "status": "Admitted",
+      "roomNo": "GEN-201",
+      "admissionDate": "2026-10-03",
+      "emergencyContact": "Sarah Miller (+1 555-888-9900)",
+      "medicalHistory": "Coronary Artery Disease"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "DOC-201",
+      "name": "Dr. Sarah Jenkins",
+      "specialization": "Cardiology",
+      "department": "Cardiology",
+      "phone": "+1 (555) 111-2233",
+      "email": "dr.jenkins@pulsecare.org",
+      "experience": "14 Years",
+      "shift": "Morning (08:00 - 16:00)",
+      "availableDays": "Mon, Tue, Wed, Thu, Fri",
+      "status": "Available",
+      "avatarColor": "#0d9488"
+    },
+    {
+      "id": "DOC-202",
+      "name": "Dr. Alexander Wright",
+      "specialization": "Neurology",
+      "department": "Neurology",
+      "phone": "+1 (555) 222-3344",
+      "email": "dr.wright@pulsecare.org",
+      "experience": "18 Years",
+      "shift": "Afternoon (14:00 - 22:00)",
+      "availableDays": "Mon, Wed, Fri, Sat",
+      "status": "In Surgery",
+      "avatarColor": "#2563eb"
+    },
+    {
+      "id": "DOC-203",
+      "name": "Dr. Elena Rostova",
+      "specialization": "Pediatrics",
+      "department": "Pediatrics",
+      "phone": "+1 (555) 333-4455",
+      "email": "dr.rostova@pulsecare.org",
+      "experience": "10 Years",
+      "shift": "Morning (09:00 - 17:00)",
+      "availableDays": "Tue, Wed, Thu, Fri, Sat",
+      "status": "Available",
+      "avatarColor": "#7c3aed"
+    },
+    {
+      "id": "DOC-204",
+      "name": "Dr. James Thornwood",
+      "specialization": "Orthopedics",
+      "department": "Orthopedics",
+      "phone": "+1 (555) 444-5566",
+      "email": "dr.thornwood@pulsecare.org",
+      "experience": "12 Years",
+      "shift": "Night (22:00 - 06:00)",
+      "availableDays": "Mon, Tue, Thu, Sun",
+      "status": "On Call",
+      "avatarColor": "#db2777"
+    },
+    {
+      "id": "DOC-205",
+      "name": "Dr. Priya Patel",
+      "specialization": "General Medicine",
+      "department": "Internal Medicine",
+      "phone": "+1 (555) 555-6677",
+      "email": "dr.patel@pulsecare.org",
+      "experience": "8 Years",
+      "shift": "Morning (08:00 - 16:00)",
+      "availableDays": "Mon, Tue, Wed, Thu, Fri, Sat",
+      "status": "Available",
+      "avatarColor": "#059669"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "APT-501",
+      "patientId": "PAT-1002",
+      "patientName": "Marcus Aurelius Sterling",
+      "doctorId": "DOC-201",
+      "doctorName": "Dr. Sarah Jenkins",
+      "department": "Cardiology",
+      "date": "2026-10-07",
+      "time": "10:30 AM",
+      "reason": "Routine Cardiac Checkup & ECG Review",
+      "status": "Completed"
+    },
+    {
+      "id": "APT-502",
+      "patientId": "PAT-1005",
+      "patientName": "Amina Al-Mansoor",
+      "doctorId": "DOC-205",
+      "doctorName": "Dr. Priya Patel",
+      "department": "Internal Medicine",
+      "date": "2026-10-07",
+      "time": "11:45 AM",
+      "reason": "Severe Migraine & Allergic Reaction",
+      "status": "Scheduled"
+    },
+    {
+      "id": "APT-503",
+      "patientId": "PAT-1003",
+      "patientName": "Sophia Rodriguez",
+      "doctorId": "DOC-204",
+      "doctorName": "Dr. James Thornwood",
+      "department": "Orthopedics",
+      "date": "2026-10-06",
+      "time": "02:00 PM",
+      "reason": "Post-Surgery Knee Joint Assessment",
+      "status": "Completed"
+    },
+    {
+      "id": "APT-504",
+      "patientId": "PAT-1001",
+      "patientName": "Eleanor Vance",
+      "doctorId": "DOC-202",
+      "doctorName": "Dr. Alexander Wright",
+      "department": "Neurology",
+      "date": "2026-10-08",
+      "time": "09:15 AM",
+      "reason": "Neurological Reflex Assessment",
+      "status": "Scheduled"
+    },
+    {
+      "id": "APT-505",
+      "patientId": "PAT-1004",
+      "patientName": "David Chen",
+      "doctorId": "DOC-203",
+      "doctorName": "Dr. Elena Rostova",
+      "department": "Pediatrics",
+      "date": "2026-10-05",
+      "time": "03:30 PM",
+      "reason": "Follow-up Consultation",
+      "status": "Cancelled"
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "RX-801",
+      "patientId": "PAT-1001",
+      "patientName": "Eleanor Vance",
+      "doctorName": "Dr. Sarah Jenkins",
+      "date": "2026-10-02",
+      "diagnosis": "Acute Bronchial Asthma & Mild Hypertension",
+      "medicines": [
+        {
+          "name": "Albuterol Inhaler",
+          "dosage": "90mcg",
+          "frequency": "2 Puffs every 4-6 hrs",
+          "duration": "14 Days"
+        },
+        {
+          "name": "Amlodipine Besylate",
+          "dosage": "5mg",
+          "frequency": "Once Daily (Morning)",
+          "duration": "30 Days"
+        }
+      ],
+      "notes": "Avoid cold drinks and excessive physical exertion. Follow up in 2 weeks."
+    },
+    {
+      "id": "RX-802",
+      "patientId": "PAT-1002",
+      "patientName": "Marcus Aurelius Sterling",
+      "doctorName": "Dr. Priya Patel",
+      "date": "2026-10-05",
+      "diagnosis": "Type 2 Diabetes Mellitus - Glycemic Control",
+      "medicines": [
+        {
+          "name": "Metformin Hydrochloride",
+          "dosage": "500mg",
+          "frequency": "Twice Daily with meals",
+          "duration": "30 Days"
+        },
+        {
+          "name": "Multivitamin Complex",
+          "dosage": "1 Tablet",
+          "frequency": "Once Daily after breakfast",
+          "duration": "30 Days"
+        }
+      ],
+      "notes": "Strict low-carb diet recommended. Monitor fasting blood sugar daily."
+    }
+  ],
+  "billing": [
+    {
+      "id": "INV-901",
+      "patientName": "Eleanor Vance",
+      "date": "2026-10-02",
+      "service": "ICU Admission & Cardiology Monitoring",
+      "amount": 2450,
+      "status": "Paid",
+      "paymentMethod": "Credit Card"
+    },
+    {
+      "id": "INV-902",
+      "patientName": "Marcus Aurelius Sterling",
+      "date": "2026-10-05",
+      "service": "Outpatient Consultation & Diabetes Screening",
+      "amount": 380,
+      "status": "Pending",
+      "paymentMethod": "Insurance Claim"
+    },
+    {
+      "id": "INV-903",
+      "patientName": "Sophia Rodriguez",
+      "date": "2026-10-04",
+      "service": "Private Ward & Surgical Post-Care",
+      "amount": 1890,
+      "status": "Paid",
+      "paymentMethod": "Bank Transfer"
+    },
+    {
+      "id": "INV-904",
+      "patientName": "Robert Miller",
+      "date": "2026-10-03",
+      "service": "General Ward & Angiogram Diagnostics",
+      "amount": 1250,
+      "status": "Overdue",
+      "paymentMethod": "Pending Payment"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "RM-101",
+      "roomNo": "ICU-01",
+      "type": "ICU",
+      "totalBeds": 2,
+      "occupiedBeds": 2,
+      "costPerDay": 850,
+      "status": "Full"
+    },
+    {
+      "id": "RM-102",
+      "roomNo": "ICU-02",
+      "type": "ICU",
+      "totalBeds": 2,
+      "occupiedBeds": 1,
+      "costPerDay": 850,
+      "status": "Available"
+    },
+    {
+      "id": "RM-103",
+      "roomNo": "PVT-104",
+      "type": "Private Suite",
+      "totalBeds": 1,
+      "occupiedBeds": 1,
+      "costPerDay": 500,
+      "status": "Full"
+    },
+    {
+      "id": "RM-104",
+      "roomNo": "PVT-105",
+      "type": "Private Suite",
+      "totalBeds": 1,
+      "occupiedBeds": 0,
+      "costPerDay": 500,
+      "status": "Available"
+    },
+    {
+      "id": "RM-105",
+      "roomNo": "GEN-201",
+      "type": "General Ward",
+      "totalBeds": 6,
+      "occupiedBeds": 4,
+      "costPerDay": 200,
+      "status": "Available"
+    },
+    {
+      "id": "RM-106",
+      "roomNo": "GEN-202",
+      "type": "General Ward",
+      "totalBeds": 6,
+      "occupiedBeds": 2,
+      "costPerDay": 200,
+      "status": "Available"
+    }
+  ],
+  "labTests": [
+    {
+      "id": "LAB-701",
+      "testName": "Comprehensive Metabolic Panel (CMP)",
+      "patientName": "Eleanor Vance",
+      "doctorName": "Dr. Sarah Jenkins",
+      "category": "Blood Pathology",
+      "date": "2026-10-02",
+      "status": "Completed",
+      "resultSummary": "Potassium levels normal. Glucose slightly elevated (110 mg/dL)."
+    },
+    {
+      "id": "LAB-702",
+      "testName": "12-Lead Electrocardiogram (ECG)",
+      "patientName": "Marcus Aurelius Sterling",
+      "doctorName": "Dr. Sarah Jenkins",
+      "category": "Cardiology",
+      "date": "2026-10-05",
+      "status": "In Progress",
+      "resultSummary": "Pending Cardiologist Signoff"
+    },
+    {
+      "id": "LAB-703",
+      "testName": "Chest X-Ray (PA View)",
+      "patientName": "Robert Miller",
+      "doctorName": "Dr. James Thornwood",
+      "category": "Radiology",
+      "date": "2026-10-03",
+      "status": "Completed",
+      "resultSummary": "Clear lung fields, no active pulmonary infiltrates detected."
+    }
+  ]
+}
